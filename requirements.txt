@@ -1,0 +1,5 @@
+importlib_metadata
+manim
+google-genai
+python-dotenv
+edge-tts
