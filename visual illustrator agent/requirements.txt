@@ -1,0 +1,7 @@
+manim>=0.18.0
+google-genai>=1.0.0
+python-dotenv
+edge-tts
+opencv-python-headless
+numpy
+Pillow

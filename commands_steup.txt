@@ -1,0 +1,19 @@
+brew install ffmpeg cairo pango scipy
+
+# Create project directory
+mkdir visual illustrator agent
+cd visual illustrator agent
+
+# Create virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install importlib_metadata manim google-genai python-dotenv
+
+# Create directory structure
+mkdir -p output temp prompt_templates
+touch main.py agent.py renderer.py prompt_templates/__init__.py prompt_templates/system_prompt.py
+
+
+brew install --cask mactex
